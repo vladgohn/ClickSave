@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toggle Extension</title>
+  <style>
+    body {
+      width: 200px;
+      text-align: center;
+      padding: 10px;
+    }
+    #toggleSwitch {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 40px;
+      height: 20px;
+      background: #ccc;
+      border-radius: 20px;
+      position: relative;
+      cursor: pointer;
+      outline: none;
+    }
+    #toggleSwitch:checked {
+      background: #4cd964;
+    }
+    #toggleSwitch::before {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 16px;
+      height: 16px;
+      background: white;
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+    #toggleSwitch:checked::before {
+      transform: translateX(20px);
+    }
+  </style>
+</head>
+<body>
+  <h3>Extension Toggle</h3>
+  <label for="toggleSwitch">Enable Extension</label>
+  <input type="checkbox" id="toggleSwitch">
+  <script src="popup.js"></script>
+</body>
+</html>
