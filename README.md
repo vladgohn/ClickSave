@@ -1,11 +1,11 @@
 ![ClickSave Icon](icon128.png)
 # ClickSave
 
-ClickSave is a Chrome extension that allows you to easily save images from web pages with a simple click.
+ClickSave is a Chrome extension that allows you to easily save images from web pages with a simple click, now enhanced with the Alt key functionality.
 
 ## How to Use
 
-After installing the extension, navigate to any web page and click on an image you wish to save. If the element is savable, the extension will automatically open it in a new browser tab, where you can right-click to save it to your computer.
+After installing the extension, navigate to any web page. Hold the Alt key and click on an image you wish to save. If the element is savable, the extension will automatically open it in a new browser tab, where you can right-click to save it to your computer.
 
 ## Installation
 
@@ -19,7 +19,7 @@ To manually install the extension, follow these steps:
 
 ## Features
 
-- Quick saving of high-resolution images from web pages.
+- Quick saving of high-resolution images from web pages using the Alt key.
 - Simple interface with minimal interaction.
 
 ## Contributing
@@ -27,6 +27,9 @@ To manually install the extension, follow these steps:
 Contributions to the ClickSave project are welcome. If you have ideas for improvement or have found a bug, please create a new issue or pull request.
 
 ## License
+
+ClickSave is distributed under the MIT License. See the `LICENSE` file for more information.
+
 
 ClickSave is distributed under the MIT License. See the `LICENSE` file for more information.
 
