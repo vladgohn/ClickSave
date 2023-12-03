@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Image Saver Extension",
-    "version": "1.0",
+    "name": "ClickSave",
+    "version": "1.3",
     "description": "Save images from web pages with a click.",
     "permissions": [ "storage", "activeTab", "scripting"],
     "action": {
