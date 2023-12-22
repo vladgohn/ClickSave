@@ -31,9 +31,6 @@ Contributions to the ClickSave project are welcome. If you have ideas for improv
 
 ClickSave is distributed under the MIT License. See the `LICENSE` file for more information.
 
-
-ClickSave is distributed under the MIT License. See the `LICENSE` file for more information.
-
 ## Feedback
 
 If you have any questions or suggestions, please feel free to reach out to the developers.
